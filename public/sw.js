@@ -2,7 +2,7 @@ self.addEventListener('install', event => {
     console.log('Service worker installing…');
     event.waitUntil(
         caches.open("static").then(cache => {
-            return cache.addAll(["master.css", "logo1.png"])
+            return cache.addAll(["index.ejs", "logo1.png"])
         })
     );
 });
