@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+      <meta name="theme-color" content="#00958">
+      <title>PWA</title>
+      <link rel="stylesheet" href="src/master.css">
+      <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+   </head>
+   <body>
+      <p>Hello world</p>
+      <script src="src/index.js"></script>
+
+      <script>
+         navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('SW registered!', reg))
+        .catch(err => console.error('Error registering service worker', err));
+       </script>
+   </body>
+
+</html>

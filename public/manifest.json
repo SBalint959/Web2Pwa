@@ -1,0 +1,19 @@
+{
+   "name": "Web2 PWA",
+   "short_name": "Web2 PWA",
+   "start_url": "/index.html",
+   "description": "5. laboratorijska vjezba iz web2 kolegija",
+   "scope": ".",
+   "orientation": "portrait-primary",
+   "dir": "ltr",
+   "lang": "en-US",
+   "background_color": "#6dcdb1",
+   "theme_color": "#009579",
+   "display": "standalone",
+   "icons": [
+      {
+        "src": "logo1.png",
+        "sizes": "360x360"
+      }
+    ]
+}
